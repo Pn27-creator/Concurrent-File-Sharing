@@ -1,0 +1,8 @@
+{
+  "description": "Network policy for the file-sharing service. Edit while the controller runs; new rules are installed within one polling interval.",
+  "service": { "ip": "10.0.0.100", "port": 5000 },
+  "allow": ["10.0.0.1", "10.0.0.2"],
+  "block": ["10.0.0.3"],
+  "default_action": "drop",
+  "allow_icmp": true
+}
