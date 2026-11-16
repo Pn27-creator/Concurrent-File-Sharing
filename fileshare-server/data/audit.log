@@ -1,0 +1,40 @@
+{"time": "2026-11-09T22:06:32", "event": "login_ok", "user": "alice", "ip": "192.168.0.100"}
+{"time": "2026-11-09T22:06:33", "event": "login_ok", "user": "bob", "ip": "192.168.0.100"}
+{"time": "2026-11-09T22:06:33", "event": "login_ok", "user": "carol", "ip": "192.168.0.100"}
+{"time": "2026-11-09T22:06:33", "event": "login_ok", "user": "admin", "ip": "192.168.0.100"}
+{"time": "2026-11-09T22:06:33", "event": "upload", "user": "alice", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "bytes": 22}
+{"time": "2026-11-09T22:06:33", "event": "upload", "user": "alice", "ip": "192.168.0.100", "file": "alice/poster-b799a.txt", "bytes": 26}
+{"time": "2026-11-09T22:06:33", "event": "download", "user": "alice", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "bytes": 22, "access": "owner"}
+{"time": "2026-11-09T22:06:33", "event": "download_denied", "user": "bob", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "reason": "ACCESS_DENIED"}
+{"time": "2026-11-09T22:06:33", "event": "download_denied", "user": "carol", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "reason": "ACCESS_DENIED"}
+{"time": "2026-11-09T22:06:33", "event": "download", "user": "admin", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "bytes": 22, "access": "admin"}
+{"time": "2026-11-09T22:06:33", "event": "download", "user": "bob", "ip": "192.168.0.100", "file": "alice/poster-b799a.txt", "bytes": 26, "access": "public"}
+{"time": "2026-11-09T22:06:33", "event": "share", "user": "alice", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "target": "carol"}
+{"time": "2026-11-09T22:06:33", "event": "download", "user": "carol", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "bytes": 22, "access": "shared"}
+{"time": "2026-11-09T22:06:33", "event": "download_denied", "user": "bob", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "reason": "ACCESS_DENIED"}
+{"time": "2026-11-09T22:06:33", "event": "unshare", "user": "alice", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "target": "carol"}
+{"time": "2026-11-09T22:06:33", "event": "download_denied", "user": "carol", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt", "reason": "ACCESS_DENIED"}
+{"time": "2026-11-09T22:06:33", "event": "delete", "user": "alice", "ip": "192.168.0.100", "file": "alice/plan-b799a.txt"}
+{"time": "2026-11-09T22:06:33", "event": "delete", "user": "alice", "ip": "192.168.0.100", "file": "alice/poster-b799a.txt"}
+{"time": "2026-11-09T22:09:05", "event": "login_failed", "user": "alice", "ip": "192.168.0.100"}
+{"time": "2026-11-09T22:09:24", "event": "login_failed", "user": "alice", "ip": "192.168.0.100"}
+{"time": "2026-11-09T22:09:54", "event": "login_ok", "user": "alice", "ip": "192.168.0.100"}
+{"time": "2026-11-16T09:08:09", "event": "login_ok", "user": "alice", "ip": "10.145.241.50"}
+{"time": "2026-11-16T09:08:09", "event": "login_ok", "user": "bob", "ip": "10.145.241.50"}
+{"time": "2026-11-16T09:08:09", "event": "login_ok", "user": "carol", "ip": "10.145.241.50"}
+{"time": "2026-11-16T09:08:10", "event": "login_ok", "user": "admin", "ip": "10.145.241.50"}
+{"time": "2026-11-16T09:08:10", "event": "upload", "user": "alice", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "bytes": 22}
+{"time": "2026-11-16T09:08:10", "event": "upload", "user": "alice", "ip": "10.145.241.50", "file": "alice/poster-1e16c.txt", "bytes": 26}
+{"time": "2026-11-16T09:08:10", "event": "download", "user": "alice", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "bytes": 22, "access": "owner"}
+{"time": "2026-11-16T09:08:10", "event": "download_denied", "user": "bob", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "reason": "ACCESS_DENIED"}
+{"time": "2026-11-16T09:08:10", "event": "download_denied", "user": "carol", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "reason": "ACCESS_DENIED"}
+{"time": "2026-11-16T09:08:10", "event": "download", "user": "admin", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "bytes": 22, "access": "admin"}
+{"time": "2026-11-16T09:08:10", "event": "download", "user": "bob", "ip": "10.145.241.50", "file": "alice/poster-1e16c.txt", "bytes": 26, "access": "public"}
+{"time": "2026-11-16T09:08:10", "event": "share", "user": "alice", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "target": "carol"}
+{"time": "2026-11-16T09:08:10", "event": "download", "user": "carol", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "bytes": 22, "access": "shared"}
+{"time": "2026-11-16T09:08:10", "event": "download_denied", "user": "bob", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "reason": "ACCESS_DENIED"}
+{"time": "2026-11-16T09:08:10", "event": "unshare", "user": "alice", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "target": "carol"}
+{"time": "2026-11-16T09:08:10", "event": "download_denied", "user": "carol", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt", "reason": "ACCESS_DENIED"}
+{"time": "2026-11-16T09:08:10", "event": "delete", "user": "alice", "ip": "10.145.241.50", "file": "alice/plan-1e16c.txt"}
+{"time": "2026-11-16T09:08:10", "event": "delete", "user": "alice", "ip": "10.145.241.50", "file": "alice/poster-1e16c.txt"}
+{"time": "2026-11-16T09:10:53", "event": "login_ok", "user": "alice", "ip": "10.145.241.50"}

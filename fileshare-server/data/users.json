@@ -1,0 +1,24 @@
+{
+  "users": {
+    "alice": {
+      "password": "pbkdf2_sha256$200000$156ee9d091201287d95d04399c5e0d7e$ed526e2ad1a986de8601c38ffbaa95518b9298e13101771e039f80fccb484e89",
+      "role": "user",
+      "created": "2026-11-09T16:34:37+00:00"
+    },
+    "bob": {
+      "password": "pbkdf2_sha256$200000$225b28514938e3ac72c51b6bf694852e$4c6627ffed1028147c23eaa21e9d72feec6aa2785f2e23b1cb35796a0ad7dabf",
+      "role": "user",
+      "created": "2026-11-09T16:34:37+00:00"
+    },
+    "carol": {
+      "password": "pbkdf2_sha256$200000$18d562ccd188ad03724e9e02f8db7805$4d54fde7bf66f5b7a5aef69876163a4fb0896fce985926e79cd25e260b058fe0",
+      "role": "user",
+      "created": "2026-11-09T16:34:37+00:00"
+    },
+    "admin": {
+      "password": "pbkdf2_sha256$200000$130b05aaebf4253c76842b1f02fe18d1$b6ba9f43d5c46986216171ec704fbbe5affa72f4ba4ee7c8d724251c8ba542cf",
+      "role": "admin",
+      "created": "2026-11-09T16:34:37+00:00"
+    }
+  }
+}
